@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".home">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Welcome to Attandace \n QR Code Scanner and Generator"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/QRCodeGeneratorBtn"
+        android:layout_width="208dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/heading"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="20dp"
+
+        android:text="Generate QR Code"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/QRCodeScannerBtn"
+        android:layout_width="208dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/QRCodeGeneratorBtn"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="20dp"
+        android:text="Scan QR Code"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/records"
+        android:layout_width="208dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/QRCodeGeneratorBtn"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="20dp"
+        android:text="Recods !!"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>
